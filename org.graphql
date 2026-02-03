@@ -1,0 +1,23 @@
+CPUSchedulingSimulation/
+│
+src/
+├── main/ 
+│   ├── Main.java                # Program entry point (menu & controller) (Jabez)
+│   ├── Process.java             # Process data model (PID, AT, BT, Priority) (Jabez)
+│   ├── Scheduler.java           # Common interface/abstract class (Jabez)
+│
+│   ├── algorithms/              # Backend: Scheduling logic
+│   │   ├── FCFS.java (Dane)
+│   │   ├── SRTF.java (Dane)
+│   │   ├── RR.java (Nikko)
+│   │   └── NPP.java (Nikko)
+│   │
+│   └── ui/   # Frontend (coise grant kayo na bahala)
+│      
+│      
+│   
+│   
+│      
+│
+└── resources/                   
+    
