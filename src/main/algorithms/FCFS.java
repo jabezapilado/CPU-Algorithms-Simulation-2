@@ -15,8 +15,12 @@ public class FCFS implements Scheduler {
             if (time < p.arrivalTime) {
                 time = p.arrivalTime;
             }
+            if (p.startTime < 0) {
+                p.startTime = time;
+            }
             p.waitingTime = time - p.arrivalTime;
             time += p.burstTime;
+            p.completionTime = time;
             p.turnaroundTime = p.waitingTime + p.burstTime;
         }
     }

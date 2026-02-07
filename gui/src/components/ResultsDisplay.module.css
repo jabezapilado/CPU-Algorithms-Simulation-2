@@ -1,0 +1,61 @@
+.panel {
+  background: var(--panel-bg);
+  border-radius: var(--radius-lg);
+  padding: 1rem 1.25rem;
+  border: 1px solid var(--border);
+}
+
+.title {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  margin: 0 0 0.75rem 0;
+}
+
+.tableWrap {
+  overflow-x: auto;
+  min-width: 0;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.85rem;
+}
+
+.table th,
+.table td {
+  padding: 0.5rem 0.6rem;
+  text-align: center;
+  border-bottom: 1px solid var(--border);
+}
+
+.table th {
+  font-weight: 600;
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+
+.table td {
+  color: var(--text);
+}
+
+.table tbody tr:hover {
+  background: var(--row-hover);
+}
+
+.averages {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1.5rem;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.averages strong {
+  color: var(--accent);
+  margin-left: 0.25rem;
+}

@@ -10,6 +10,8 @@ public class Process {
     public int waitingTime;
     public int turnaroundTime;
     public int remainingTime;
+    public int startTime;
+    public int completionTime;
 
     public Process(int pid, int arrivalTime, int burstTime, int priority) {
         this.pid = pid;
@@ -17,5 +19,11 @@ public class Process {
         this.burstTime = burstTime;
         this.priority = priority;
         this.remainingTime = burstTime;
+        this.startTime = -1;
+        this.completionTime = 0;
+    }
+
+    public Process copy() {
+        return new Process(pid, arrivalTime, burstTime, priority);
     }
 }
