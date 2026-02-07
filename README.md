@@ -126,7 +126,7 @@ CPU-Algorithms-Simulation/
 
 ## Contributors
 
-- Apilado, Jabez Timothy E. — Back-end lead and CLI implementation
+- Apilado, Jabez Timothy E. — Backend lead, Java REST API, and React integration
 - Maninang, Allein Dane G. — Scheduling algorithms (back end)
 - Parungao, Nikko S. — Scheduling algorithms (back end)
 - Gurango, Christine Francoise O. — React interface (front end)
